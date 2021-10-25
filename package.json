@@ -2,7 +2,7 @@
   "name": "agency",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bscodes.github.io/react-agency-website/",
+  "homepage": "https://ignaloza.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.14.1",
