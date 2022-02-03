@@ -2,7 +2,7 @@ import React from 'react';
 import LetsWork from '../components/LetsWorkTogether';
 
 // service icons 
-import icon1 from '../img/services/instaicon.png';
+
 import mail from '../img/services/mail.png';
 import seo from '../img/services/seo.png';
 import content from '../img/services/content.png';
@@ -15,40 +15,36 @@ const Services = () => {
     const serviceIcons = [
         {
             "id": "1",
-            "title": "Instagram Engagement Campaign",
-            "image": icon1,
-            "description": "Our Instagram engagement campaign will have your Instagram account come alive. "
+            "title": "Web Design & Development",
+            "image": web,
+            "description": "Mis servicios de diseño y desarrollo web incluyen desde diseño gráfico hasta UX."
         },
+
         {
             "id": "2",
             "title": "Email Marketing",
             "image": mail,
-            "description": "Stay top of mind with one of the most creative email marketing campaigns."
+            "description": "Manténgase en la mente con una de las campañas de marketing por correo electrónico más creativas."
         },
         {
             "id": "3",
             "title": "Search Engine Optimization",
             "image": seo,
-            "description": "Rank in the top of search engines. Local SEO, link building, and more"
+            "description": "Posicionese en los primeros lugares de los motores de búsqueda. SEO local, construcción de enlaces y más"
         },
         {
             "id": "4",
             "title": "Content Marketing Services",
             "image": content,
-            "description": "We can be your company voice with quality content. Our writing team will give your brand the voice it needs to stick out."
+            "description": "Podemos ser la voz de tu empresa con contenido de calidad. Mi capacidad y calidad de redacción le dará a su marca la voz que necesita para sobresalir."
         },
         {
             "id": "5",
             "title": "Social Media Paid Advertising",
             "image": share,
-            "description": "From brand awareness campaigns to lead funnels, we have got the tools to create the right ads for your business. "
-        },
-        {
-            "id": "6",
-            "title": "Web Design & Development",
-            "image": web,
-            "description": "Our web design and development services include everything from graphic design to UX."
+            "description": "Desde campañas de reconocimiento de marca hasta embudos de clientes potenciales, tengo las herramientas para crear los anuncios adecuados para su negocio."
         }
+
     ]
 
     return(

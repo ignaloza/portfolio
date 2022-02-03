@@ -73,6 +73,7 @@ const PortfolioDetailComponent = (props) => {
                                     </span> 
                                     <span className="work-category">
                                    {link}
+                               
                                     </span>
                                 </div>
                             </div>

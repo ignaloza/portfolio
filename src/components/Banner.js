@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../img/cvimg.png';
 import '../App.scss';
 
 function Banner () {
@@ -14,18 +13,6 @@ function Banner () {
                            Ignacio Lozada
                             <span className="text-customer">.</span> 
                         </h1>
-                    </div>
-                </div>
-                <div className="banner-image-mobile">
-                    <div className="col-l-7 col-lg-6 d-lg-block">
-                        <div className="banner-area">
-                            <img className="banner-image" src={Logo} alt="images"/>
-                        </div>
-                    </div>
-                </div>
-                <div className="banner-image-desktop col-xl-7 col-lg-6 d-lg-block">
-                    <div className="banner-area">
-                        <img className="banner-image" src={Logo} alt="images"/>
                     </div>
                 </div>
               </div>
