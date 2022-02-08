@@ -1,7 +1,7 @@
 {
   "name": "agency",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://ignaloza.github.io/portfolio/",
   "dependencies": {
     "emailjs": "^3.7.0",
